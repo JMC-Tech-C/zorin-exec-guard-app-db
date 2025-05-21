@@ -707,6 +707,16 @@
     },
     {
         "regex": {
+            "windows": "geany.*.exe"
+        },
+        "name": "Geany",
+        "apt": "geany",
+        "alternative": {
+            "name": "Geany IDE"
+        }
+    },
+    {
+        "regex": {
             "windows": "winrar.*.exe"
         },
         "name": "WinRAR",
