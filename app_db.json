@@ -1373,6 +1373,17 @@
     },
     {
         "regex": {
+            "windows": "balenaEtcher.*.exe"
+        },
+        "name": "balenaEtcher",
+        "webLink": { "href": "https://etcher.balena.io/#download-etcher" },
+        "mainMessage": "Please download and use balenaEtcher for Linux x64 (64-bit) (zip)",
+        "alternative": {
+            "name": "etcher"
+        }
+    },
+    {
+        "regex": {
             "windows": "(windows.*(setup|install)|mediacreationtool).*.exe"
         },
         "name": "Microsoft Windows",
