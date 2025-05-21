@@ -1382,5 +1382,16 @@
         "alternative": {
             "name": "GNOME Boxes"
         }
+   },
+        {
+        "regex": {
+            "windows": "CitrixWorkspaceApp.*.exe"
+        },
+        "name": "Citrix Workspace App",
+        "webLink": { "href": "https://www.citrix.com/downloads/workspace-app/linux/workspace-app-for-linux-latest.html" },
+        "mainMessage": "Install the Citrix Workspace App on Zorin OS using the Linux Build (.deb)",
+        "alternative": {
+            "name": "Citrix"
+        }
    }
 ]
