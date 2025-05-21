@@ -1135,6 +1135,17 @@
     },
     {
         "regex": {
+            "windows": "jgrasp.*.exe"
+        },
+        "name": "jGRASP",
+        "webLink": { "href": "https://spider.eng.auburn.edu/user-cgi/grasp/grasp.pl?;dl=download_jgrasp.html" },
+        "mainMessage": "Install jGRASP on Zorin OS using the content of the Zip File for Linux, UNIX, and other systems",
+        "alternative": {
+            "name": "jgrasp"
+        }
+    },
+    {
+        "regex": {
              "windows": "gvim.*.exe"
         },
         "name": "VIM",
@@ -1404,7 +1415,7 @@
             "name": "GNOME Boxes"
         }
    },
-        {
+    {
         "regex": {
             "windows": "CitrixWorkspaceApp.*.exe"
         },
