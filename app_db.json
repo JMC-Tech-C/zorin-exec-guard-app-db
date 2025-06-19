@@ -778,6 +778,13 @@
     },
     {
         "regex": {
+            "windows": "nmap.*.setup.*.(exe|msi)"
+        },
+        "name": "Nmap",
+        "apt": "nmap",
+    },
+    {
+        "regex": {
              "windows": "minecraft.*.(exe|msi)",
              "linux": "minecraft.*"
         },
