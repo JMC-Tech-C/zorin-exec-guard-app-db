@@ -752,6 +752,17 @@
     },
     {
         "regex": {
+            "windows": "BvSshClient-Inst(.*.installer|).*.(exe|msi)"
+        },
+        "name": "Bitvise",
+        "alternative": {
+            "name": "PuTTY"
+            "flatpak": { "remote": "flathub", "id": "uk.org.greenend.chiark.sgtatham.putty" },
+            "desktopLauncher": "uk.org.greenend.chiark.sgtatham.putty.desktop"
+        }
+    },
+    {
+        "regex": {
              "windows": "minecraft.*.(exe|msi)",
              "linux": "minecraft.*"
         },
