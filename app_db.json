@@ -376,6 +376,15 @@
     },
     {
         "regex": {
+            "windows": "gimp.*.setup.*.(exe|msi)",
+            "linux": "gimp.*"
+        },
+        "name": "GIMP",
+        "apt": "gimp",
+        "desktopLauncher": "gimp.desktop"
+    },
+    {
+        "regex": {
             "windows": "affinity-photo.*.exe"
         },
         "name": "Affinity Photo",
