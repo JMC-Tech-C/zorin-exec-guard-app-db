@@ -752,7 +752,7 @@
     },
     {
         "regex": {
-            "windows": "BvSshClient-Inst(.*.installer|).*.(exe|msi)"
+            "windows": "bvsshclient-inst(.*.installer|).*.(exe|msi)"
         },
         "name": "Bitvise",
         "alternative": {
@@ -760,6 +760,15 @@
             "flatpak": { "remote": "flathub", "id": "uk.org.greenend.chiark.sgtatham.putty" },
             "desktopLauncher": "uk.org.greenend.chiark.sgtatham.putty.desktop"
         }
+    },
+    {
+        "regex": {
+            "windows": "xampp-windows-x64-8.2.12-0-VS16-installer(.*.installer|).*.(exe|msi)"
+        },
+        "name": "XAMPP",
+        "name": "XAMPP website",
+        "webLink": { "href": "https://www.apachefriends.org/download.html" },
+        "mainMessage": "You can download XAMPP (.run package) for Zorin OS from the web"
     },
     {
         "regex": {
