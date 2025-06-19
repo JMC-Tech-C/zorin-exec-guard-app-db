@@ -376,6 +376,16 @@
     },
     {
         "regex": {
+            "windows": "antimicro.*.win64.*.exe"
+        },
+        "name": "QJoypad",
+        "alternative": {
+            "name": "QJoypad",
+            "apt": "qjoypad"
+        }
+    },
+    {
+        "regex": {
             "windows": "gimp.*.setup.*.(exe|msi)",
             "linux": "gimp.*"
         },
