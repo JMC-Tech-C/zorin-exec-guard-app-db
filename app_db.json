@@ -1402,6 +1402,17 @@
     },
     {
         "regex": {
+            "windows": "officesetup.*.(exe|msi)"
+        },
+        "name": "Microsoft Office website",
+        "webLink": { "href": "https://www.office.com" },
+        "mainMessage": "You can either use LibreOffice (Pre-Installed), or you can use Microsoft Office Online"          
+        "alternative": {
+            "name": "LibreOffice"
+        }
+    },
+    {
+        "regex": {
             "windows": "virtualbox.*.win.exe"
         },
         "name": "VirtualBox",
