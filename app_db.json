@@ -378,7 +378,17 @@
         "regex": {
             "windows": "antimicro.*.win64.*.exe"
         },
-        "name": "QJoypad",
+        "name": "AntiMicro",
+        "alternative": {
+            "name": "QJoypad",
+            "apt": "qjoypad"
+        }
+    },
+    {
+        "regex": {
+            "windows": "xpadder.*.exe"
+        },
+        "name": "Xpadder",
         "alternative": {
             "name": "QJoypad",
             "apt": "qjoypad"
