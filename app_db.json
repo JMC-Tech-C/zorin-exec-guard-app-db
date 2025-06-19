@@ -1423,9 +1423,20 @@
         "regex": {
             "windows": "webex.*.(exe|msi)"
         },
-        "name": "Cisco Webex",
+        "name": "Cisco Webex website",
         "webLink": { "href": "https://www.webex.com/downloads.html" },
         "mainMessage": "You can install Cisco Webex (Linux/Ubuntu installer) for Zorin OS from the web"
+    },
+    {
+        "regex": {
+            "windows": "finaldraftsetup.*.(exe|msi)"
+        },
+        "name": "FinalDraft",
+        "alternative": {
+            "name": "Trelby website",
+            "webLink": { "href": "https://www.trelby.org/download/" },
+            "mainMessage": "You can install Trelby (Linux/Ubuntu installer) for Zorin OS from the web"
+        }
     },
     {
         "regex": {
