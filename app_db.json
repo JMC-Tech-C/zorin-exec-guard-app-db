@@ -1421,6 +1421,14 @@
     },
     {
         "regex": {
+            "windows": "webex.*.(exe|msi)"
+        },
+        "name": "Cisco Webex",
+        "webLink": { "href": "https://www.webex.com/downloads.html" },
+        "mainMessage": "You can install Cisco Webex (Linux/Ubuntu installer) for Zorin OS from the web"
+    },
+    {
+        "regex": {
             "windows": "virtualbox.*.win.exe"
         },
         "name": "VirtualBox",
