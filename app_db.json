@@ -1413,6 +1413,14 @@
     },
     {
         "regex": {
+            "windows": "msteamssetup.*.(exe|msi)"
+        },
+        "name": "Microsoft Teams website",
+        "webLink": { "href": "https://teams.microsoft.com/" },
+        "mainMessage": "You can use Microsoft Teams Online"
+    },
+    {
+        "regex": {
             "windows": "virtualbox.*.win.exe"
         },
         "name": "VirtualBox",
